@@ -1,0 +1,1015 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
+body {
+    font-family: 'Sofia Pro', sans-serif;
+    background-image: url("https://lh3.googleusercontent.com/058_DR2EVLT1E-D_TinFJW0kF7y-TvReHbLCGKq3m51s_ZF3mghnD20iXNz17hlKDsrAuiXRdFIQX-z7JOvXLSW7uaeEFL6wojFTMojKQ09b6AqiAljqqH4ShHxGt1S9SbPLORh8yA=w2400");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+/*Home page start*/
+.mainHeadTittle {
+    font-size: 48px;
+    letter-spacing: 10px;
+    color: #77608F;
+}
+
+h2 {
+    font-size: 24px;
+    letter-spacing: 5px;
+    color: #333333;
+}
+
+.maintextcontainerhome {
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.textandbutton {
+    display: flex;
+    font-weight: bolder;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.linkShopMain {
+    display: flex;
+    border-radius: 15px;
+    padding: 25px 30px;
+    border: 4px solid #77608F;
+    background: #77608F;
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: 8px;
+    align-items: center;
+    width: 150px;
+    height: 15px;
+    font-size: 16px;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+/*Home page end*/
+
+/*Navigation start*/
+.navbartop {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbarlinks {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.MenuButton {
+    display: none;
+}
+
+.otherpage {
+    color: #333333;
+    font-weight: bolder;
+    padding: 2px 20px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+    border: 2px solid #77608f00;
+}
+
+.otherpage:visited {
+    text-decoration: none;
+}
+
+.otherpage:hover {
+    border-radius: 10px;
+    border: 2px solid #77608F;
+    color: #77608F;
+}
+
+/*Navigation end*/
+
+/*About us start*/
+.image {
+    border-radius: 20px;
+    display: flex;
+    width: 300px;
+    height: auto;
+}
+
+.Momsbakerycontainer {
+    width: 100vw;
+    text-align: center;
+}
+
+.homesection {
+    width: 100vw;
+    height: 64vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.leftcontainer {
+    margin-right: 30px;
+}
+
+.aboutmetext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
+    color: #333333;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 30vh;
+}
+
+.introtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*About us end*/
+
+/*Shop start*/
+.maintextcontainershop {
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.containerbread {
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 130px;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.buyicon {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.price {
+    font-size: large;
+}
+
+.seemore {
+    display: flex;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    font-weight: bolder;
+    background-color: #77608F;
+    color: #ffffff;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 20px;
+    border: 4px solid #77608F;
+
+}
+
+.Bun {
+    width: 15vw;
+    height: 220px;
+    background-image: url("bun.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Croissant {
+    width: 15vw;
+    height: 220px;
+    border-radius: 12px;
+    background-image: url("croissant.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Baguette {
+    width: 15vw;
+    height: 220px;
+    border-radius: 12px;
+    background-image: url("baguette.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Bread {
+    width: 15vw;
+    height: 220px;
+    border-radius: 12px;
+    background-image: url("bread.jpg");
+    background-size: cover;
+    background-position: right 20%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Applepie {
+    width: 15vw;
+    height: 220px;
+    border-radius: 12px;
+    background-image: url("aplepie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.SesameBun {
+    width: 15vw;
+    height: 220px;
+    border-radius: 12px;
+    background-image: url("sesamebun.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Bagel {
+    width: 15vw;
+    height: 220px;
+    border-radius: 12px;
+    background-image: url("bagel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right 40%;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Brownie {
+    width: 15vw;
+    height: 220px;
+    border-radius: 12px;
+    background-image: url("brownie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Buntext {
+    width: 15vw;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(119, 96, 143, 0.8);
+    color: #FFFFFF;
+}
+
+.Croissanttext {
+    width: 15vw;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(119, 96, 143, 0.8);
+    color: #FFFFFF;
+}
+
+.Baguettetext {
+    width: 15vw;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(119, 96, 143, 0.8);
+    color: #FFFFFF;
+}
+
+.Breadtext {
+    width: 15vw;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(119, 96, 143, 0.8);
+    color: #FFFFFF;
+}
+
+.Applepietext {
+    width: 15vw;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(119, 96, 143, 0.8);
+    color: #FFFFFF;
+}
+
+.SesameBuntext {
+    width: 15vw;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(119, 96, 143, 0.8);
+    color: #FFFFFF;
+}
+
+.Bageltext {
+    width: 15vw;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(119, 96, 143, 0.8);
+    color: #FFFFFF;
+}
+
+.Brownietext {
+    width: 15vw;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(119, 96, 143, 0.8);
+    color: #FFFFFF;
+}
+
+/*Shop end*/
+
+/*Footer start*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 22vh;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.footer-upper {
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.footershop {
+    display: flex;
+    width: 19vw;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footerquickhelp {
+    display: flex;
+    width: 19vw;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footercompany {
+    display: flex;
+    width: 19vw;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.navbarlinksbottomicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+i {
+    color: #77608F;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: small;
+}
+
+.footerlinks {
+    color: #333333;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid #77608f00;
+}
+
+.footer-down {
+    color: #333333;
+    font-size: 12px;
+    align-self: center;
+}
+
+.Newsletter {
+    margin-top: 8px;
+    display: flex;
+    width: 20vw;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.newsletterbutton {
+    font-size: 16px;
+    display: flex;
+    border-radius: 12px;
+    padding: 15px 55px;
+    border: 4px solid #77608F;
+    background: #77608F;
+    color: #ffffff;
+    align-items: center;
+    width: 55px;
+    height: 1px;
+    justify-content: center;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.newsletterbutton:hover {
+    cursor: pointer;
+}
+
+/*Footer end*/
+/*Newsletter start*/
+
+.newslettercontainer {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    border: 1px solid black;
+}
+
+.newslettertext {
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.subscribe {
+    font-size: 18px;
+    display: flex;
+    border-radius: 12px;
+    padding: 25px 40px;
+    border: 4px solid #77608F;
+    background: #77608F;
+    color: #ffffff;
+    align-items: center;
+    width: 130px;
+    height: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.email {
+    width: 26vw;
+    height: 3vh;
+    background: #ffffff;
+    border-radius: 12px;
+    font-size: 16px;
+    text-indent: 10px;
+    border: #FFFFFF;
+}
+
+.email::placeholder {
+    font-size: 16px;
+}
+
+.visible .newslettercontainer {
+    display: flex;
+    z-index: 3;
+
+}
+
+
+/*Newsletter end*/
+
+/*Contact us start*/
+.contactus {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+    width: 100vw;
+}
+
+.contactcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 68vh;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    gap: 12px;
+}
+
+iframe {
+    border-radius: 20px;
+    height: 500px;
+    width: 28vw;
+}
+
+.contact-input {
+    width: 300px;
+    height: 30px;
+    text-indent: 10px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-size: 16px;
+    border: #FFFFFF;
+}
+
+.contact-inputsubject {
+    width: 300px;
+    height: 80px;
+    text-indent: 10px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-size: 16px;
+    border: #FFFFFF;
+}
+
+.contact-input::placeholder {
+    font-size: 16px;
+}
+
+.Ouraddress {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 500px;
+    width: 28vw;
+}
+
+.textanddress {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 23vw;
+}
+
+.pin {
+    display: none;
+}
+
+.Submit {
+    font-size: 16px;
+    display: flex;
+    border-radius: 12px;
+    padding: 15px 40px;
+    border: 4px solid #77608F;
+    background: #77608F;
+    color: #ffffff;
+    align-items: center;
+    width: 55px;
+    height: 1px;
+    justify-content: center;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+/*Contact us end*/
+/*Button to top start*/
+.buttontotop {
+    position: fixed;
+    top: 85%;
+    left: 85%;
+    width: 40px;
+    height: 40px;
+    display: none;
+    border: 4px solid #77608F;
+    background-color: #77608F;
+    color: #ffffff;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Button to top end*/
+
+/*mobile view start*/
+@media only screen and (max-width:600px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
+        position: relative;
+    }
+
+    /*navigation mobile*/
+    .navbartop {
+        width: 90vw;
+        height: auto;
+        justify-content: flex-end;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .navbarlinks {
+        border-top: 1px solid #77608F;
+        height: auto;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        gap: 0;
+        display: none;
+    }
+
+    .darkbuttonandmenu {
+        margin-top: 40px;
+        margin-left: 60px;
+        width: 50px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .visibility .navbarlinks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .MenuButton {
+        display: flex;
+        font-size: 40px;
+    }
+
+    /*home page mobile*/
+    .textandbutton {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .linkShopMain {
+        margin-top: 0;
+    }
+
+    h2 {
+        margin-bottom: 7vh;
+    }
+
+    .mainHeadTittle {
+        font-size: 24px;
+    }
+
+    .linkShopMain {
+        padding: 15px 15px;
+        letter-spacing: 4px;
+        width: 100px;
+        height: 10px;
+        font-size: 12px;
+    }
+
+
+    /*footer mobile*/
+    .footer {
+        height: auto;
+    }
+
+    .footer-down {
+        display: none;
+    }
+
+    .footer-upper {
+        width: 100vw;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 1px;
+        justify-content: space-evenly;
+    }
+
+    .footershop {
+        padding: 0;
+        width: 28vw;
+    }
+
+    .footerquickhelp {
+        padding: 0;
+        width: 34vw;
+    }
+
+    .footercompany {
+        padding: 0;
+        width: 25vw;
+    }
+
+    .navbarlinksbottomicons {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .Newsletter {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 90vw;
+        padding-left: 0;
+    }
+
+    /*contact page*/
+    .contactcontainer {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .textanddress {
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .pin {
+        display: flex;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    .contact-form {
+        display: flex;
+        gap: 10px;
+        width: 90vw;
+    }
+
+    .Ouraddress {
+        display: flex;
+        width: 100vw;
+        height: 100px;
+        justify-content: flex-start;
+    }
+
+    .contact-inputsubject {
+        text-indent: 15px;
+    }
+
+    /*button to top*/
+    .buttontotop {
+        display: flex;
+    }
+
+    /*shop page*/
+    .seemore {
+        display: none;
+    }
+
+    .maintextcontainershop {
+        height: 3360px;
+        margin-top: 0;
+    }
+
+    .containerbread {
+        display: flex;
+        gap: 15px;
+        height: 3350px;
+    }
+
+    .Bun {
+        width: 90vw;
+        height: 400px;
+    }
+
+    .Croissant {
+        width: 90vw;
+        height: 400px;
+    }
+
+    .Baguette {
+        width: 90vw;
+        height: 400px;
+    }
+
+    .Bread {
+        width: 90vw;
+        height: 400px;
+    }
+
+    .Applepie {
+        width: 90vw;
+        height: 400px;
+    }
+
+    .SesameBun {
+        width: 90vw;
+        height: 400px;
+    }
+
+    .Bagel {
+        width: 90vw;
+        height: 400px;
+    }
+
+    .Brownie {
+        width: 90vw;
+        height: 400px;
+    }
+
+    .Buntext {
+        width: 90vw;
+    }
+
+    .Croissanttext {
+        width: 90vw;
+    }
+
+    .Baguettetext {
+        width: 90vw;
+    }
+
+    .Breadtext {
+        width: 90vw;
+    }
+
+    .Applepietext {
+        width: 90vw;
+    }
+
+    .SesameBuntext {
+        width: 90vw;
+    }
+
+    .Bageltext {
+        width: 90vw;
+    }
+
+    .Brownietext {
+        width: 90vw;
+    }
+
+    /* about me*/
+    .homesection {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100vw;
+        height: 900px;
+        justify-content: flex-end;
+    }
+
+    .introtext {
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .aboutmetext {
+        font-size: 16px;
+        width: 90vw;
+    }
+
+    .image {
+        margin-left: 0;
+    }
+
+    /*Newsletter*/
+    .newslettercontainer {
+        bottom: 0px;
+        width: 85vw;
+        height: 200px;
+
+    }
+
+    .email {
+        width: 80vw;
+    }
+}
+
+/*mobile view end*/
+
+/*dark mode start*/
+.dark-mode {
+    background-color: #000000;
+    background-image: none;
+}
+
+.dark-mode h1 {
+    color: white;
+}
+
+.dark-mode h2 {
+    color: white;
+}
+
+.dark-mode p {
+    color: white;
+}
+
+.dark-mode .logo {
+    background-image: url("Rectangle28(1).png");
+    background-size: 177px;
+}
+
+.dark-mode i {
+    color: white;
+}
+
+.dark-mode a {
+    color: white;
+}
+
+/*dark mode end*/
